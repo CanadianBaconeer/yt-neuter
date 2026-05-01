@@ -127,12 +127,6 @@ www.youtube.com##ytd-feed-filter-chip-bar-renderer:has(yt-chip-cloud-chip-render
 m.youtube.com##ytm-feed-filter-chip-bar-renderer:has(ytm-chip-cloud-chip-renderer[chip-style=STYLE_HOME_FILTER])
 www.youtube.com###frosted-glass.with-chipbar.ytd-app:style(height:56px !important)
 
-
-!! creator
-! community posts
-www.youtube.com##ytd-rich-shelf-renderer:has(ytd-rich-item-renderer[is-post])
-www.youtube.com##ytd-item-section-renderer:has(a[href$="/posts"])
-
 !!!! video browsing
 ! members-only videos
 www.youtube.com##ytd-rich-item-renderer:has(.yt-badge-shape--membership)
@@ -292,10 +286,6 @@ www.youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_R
 www.youtube.com##.ytd-rich-metadata-row-renderer[component-style=RICH_METADATA_RENDERER_STYLE_BOX_ART]
 ! show metadata
 www.youtube.com###collapsible > .ytd-metadata-row-container-renderer
-! featured music
-www.youtube.com##ytd-video-description-music-section-renderer
-youtube.com##div[slot="extra-content"]:has(button-view-model>a[href="/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"])
-www.youtube.com##ytd-horizontal-card-list-renderer:has(button-view-model>a[href="/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"])
 ! featured playlist (#37)
 www.youtube.com##ytd-video-description-course-section-renderer
 ! products in current video
@@ -319,8 +309,6 @@ www.youtube.com###expandable-metadata:has(video-summary-content-view-model)
 www.youtube.com###video-summary
 
 !!! comments
-! translate button
-youtube.com##.translate-button[state="untoggled"]
 !! paid comments
 ! paid (thanks) comment badge
 youtube.com###paid-comment-chip[role=button]

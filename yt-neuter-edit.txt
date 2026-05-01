@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Title: YouTube Neuter
-! Last modified: 2026/02/08
+! Title: YouTube Neuter (slightly less aggressive edit)
+! Last modified: 2026/02/08 (edits mate 2026/05/01)
 ! Expires: 1 day
-! Homepage: https://github.com/mchangrh/yt-neuter
+! Homepage: https://github.com/CanadianBaconeer/yt-neuter
 ! Licence: Unlicense
 !
 
